@@ -1,0 +1,220 @@
+@media only screen and (max-width: 600px) and (min-width: 360px){
+	.dNone{display: block;}
+	.dNone_resp{display: none;}
+	nav{
+		margin-bottom: 0px;
+	}
+	.navbar-header{
+        float:left;
+    }
+    .navbar-nav{
+        margin-right: 2%;
+    }
+	#myNavbar {
+		text-align: center;
+		position: inherit;
+		right: 0;
+		width: 100%;
+		margin: auto;
+		float:none;
+		padding-left: 9%;
+	}
+	
+	.modal {
+		top: 20%;
+	}	
+/*	.navbar-toggle{
+		width: 62px;
+		height: 60px;
+		margin-top: 33px;
+		border-color: #ffb300;
+	}
+*/	
+	.navbar-toggle {
+		position: relative;
+		float: right;
+		margin-right: 0px;
+		margin-top: 5%;
+		border:none;
+		width: 15%;
+		height: 54px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: #fff;
+		margin-top: 0px;
+		margin-bottom: 9px;
+	}
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 43px;
+		height: 5px;
+		border-radius: 1px;
+	}
+	.navbar-brand>img {
+		display: block;
+		height: 13%;
+		position: fixed;
+		top: 0%;
+		left: 10px;
+	}
+	#cname {
+		font-size: 1em;
+		position: relative;
+		left: 4%;
+		text-align: center;
+		line-height: initial;
+	}
+
+	/*#myNavbar{
+		float: right;
+		position: fixed;
+		right: 0;
+		width: 50%;
+	}*/
+	#home {
+		padding: 136px 0px 0px 0px;
+	}
+    .carousel{
+        width: 100%;
+	}
+	.carousel-inner>.item>img {
+		height: inherit;
+	}
+	#about {
+		padding-top: 35%;
+		font-size: 1.9rem;
+		margin-top: -28%;
+		height:auto;
+	}
+	.margin {
+        margin: auto;
+        width: 32.5%;
+    }
+	#products {
+		padding-top: 32%;
+		height: auto;
+	}
+    .flip-card {
+        width: 90%;
+		margin: auto;
+		margin-bottom: 4%;
+		height:120px;
+    }
+    .flip-card:hover .flip-card-inner {
+        transform: scale(1) rotateY(180deg);
+        cursor: pointer;
+	}
+	.two {
+		font-size: x-small;
+	}
+    /*.col-md-6, .last_card{
+		padding-top: 0%;
+		text-align: justify;
+    }*/
+    #contact {
+		padding-top: 135px;
+		height: auto;
+		width: 100%;
+		margin-top: -30%;
+	}
+	
+    #lft, #r8{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 4%;
+        float: inherit;
+    }
+    iframe {
+        margin-left: 0%;
+        height:89px;
+    }
+    .contactForm{
+        height: 124%;
+        padding-top: 4%;
+	}
+	input, textarea {
+		display: block;
+		border: 1px solid black;
+		border-radius: 32px;
+		width: 100%;
+		line-height: 22px;
+		margin:2%;
+		padding: 2%;
+	}
+	textarea {
+		padding-left: 8%;
+	}
+	.btn-success{
+		margin: 4% auto;
+    	display: block;
+	}
+	.fa-phone {
+		background: blue;
+		color: white;
+	  }
+	  .fa-envelope {
+		background: red;
+		color: white;
+	  }
+	  .fa-whatsapp {
+		background: #2db42d;
+		color: white;
+	  }
+	#ff-compose{
+		height: 338px;
+		overflow-y: scroll;
+	}
+    .sidebar2{
+        width: 88%;
+    }
+    .navbar-header{
+        width: 100%;
+	}
+	.navbar-nav {
+		float: none;
+	}
+	.sidebar {
+		display: none;
+	}
+	.resp_links{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 8%;
+	}
+	.resp_links ul{
+		list-style: none;
+		padding: 0%;
+	}
+	.resp_links ul li{
+		display: inline;
+	}
+	.footer{
+		display: block;
+		height: auto;
+	}
+	.contact_footer ul{
+		list-style: none;
+		padding: inherit;
+		width: 100%;
+		margin: 0;
+		display: flex;
+    	justify-content: space-around;
+	}
+	.contact_footer ul li{
+		display:inline;
+	}
+	.contact_footer ul li i{
+		margin:0%;
+	}
+	.footer hr{
+		margin:8px 0px;
+	}
+	.rounded-pill {
+		margin: 0%;
+	}
+	.sub_prod {
+		height:auto;
+	}
+}
